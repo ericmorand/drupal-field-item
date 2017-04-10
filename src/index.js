@@ -1,9 +1,9 @@
 const Attributes = require('drupal-attribute');
 
 class DrupalFieldItem {
-  constructor() {
+  constructor(content) {
     this.attributes = new Attributes();
-    this.content = null;
+    this.content = content;
   }
 }
 
