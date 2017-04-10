@@ -1,0 +1,26 @@
+{
+  "name": "drupal-field-item",
+  "version": "0.1.0",
+  "description": "Drupal Field Item emulated in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "pretest": "npm prune && npm update",
+    "test": "tap test/*.js --cov --reporter=spec --100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmorand/drupal-field-item.git"
+  },
+  "author": "Eric MORAND",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ericmorand/drupal-field-item/issues"
+  },
+  "homepage": "https://github.com/ericmorand/drupal-field-item#readme",
+  "devDependencies": {
+    "tap": "^10.3.0"
+  },
+  "dependencies": {
+    "drupal-attribute": "^1.0.2"
+  }
+}
